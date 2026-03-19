@@ -88,4 +88,11 @@ public class Date {
       return false;
     }
   }
+    // Constructor modified by the collaborator
+    public Date(int tag, int monat, int jahr) {
+        this.day = tag;
+        this.month = monat;
+        this.year = jahr;
+    }
+
 }
