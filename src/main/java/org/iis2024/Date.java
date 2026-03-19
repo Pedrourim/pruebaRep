@@ -87,5 +87,12 @@ public class Date {
     } catch (ParseException e) {
       return false;
     }
+
+    public Date(int dia, int mes, int año) {
+          this.day = dia;
+          this.month = mes;
+          this.year = año;
+      }
+
   }
 }
